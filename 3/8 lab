@@ -1,0 +1,80 @@
+HTML document
+
+<html>
+<head>
+<title>form</title>
+<link href="samp.css" rel="stylesheet"></link> </head>
+<body>
+<div class="con">
+<form action="display.html" method="get" align="center"> <div class="con2">
+</div>
+<div class="main">
+
+<table align="center">
+<tr>
+<td><b><br>Welcome to start Page<br><br></td></tr>
+</table>
+<div class="con1">
+<table align="center">
+
+<tr>
+<td>Input box</td>
+<td><input type="text" size="40"></input></td>
+</tr>
+<tr>
+<td>Text area</td>
+<td><textarea
+row="10"
+column="80"></textarea></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+<td><button input type="reset" value="CLEAR"></td>
+</tr>
+
+<tr>
+<td><button input type="undo" value="UNDO"></td>
+</tr>
+</table>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+2) CSS sheet
+
+.con
+{
+width:400px;
+height:400px;
+background-color:blue;
+color:blue;
+padding:0px 10px 0px 10px;
+margin:auto;
+}
+.main
+{
+width:400px;
+height:80px;
+float:left;
+padding:60px 10px 10px10px;
+margin: auto;
+}
+.con1
+{
+width:200px;
+height:30px;
+float:left;
+margin:auto;
+padding:0px 0px 0px0px;
+}
+.con2
+{
+width:150px;
+height:30px;
+float:left;
+margin:10px 10px 10px10px;
+p           adding:0px 0px 0px0px
